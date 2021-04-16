@@ -41,7 +41,7 @@ require (
 	github.com/prometheus/common v0.13.0
 	github.com/prometheus/prometheus v1.8.2-0.20200827201422-1195cc24e3c8
 	github.com/rs/cors v1.7.0
-	github.com/securego/gosec/v2 v2.4.0
+	github.com/securego/gosec/v2 v2.7.0
 	github.com/shirou/gopsutil v2.20.6+incompatible
 	github.com/soheilhy/cmux v0.1.4
 	github.com/spaolacci/murmur3 v1.1.0 // indirect
@@ -56,12 +56,12 @@ require (
 	go.uber.org/atomic v1.6.0
 	go.uber.org/zap v1.16.0
 	golang.org/x/oauth2 v0.0.0-20200107190931-bf48bf16ab8d
-	golang.org/x/sys v0.0.0-20200821140526-fda516888d29
-	golang.org/x/text v0.3.3
+	golang.org/x/sys v0.0.0-20210228012217-479acdf4ea46
+	golang.org/x/text v0.3.5
 	google.golang.org/genproto v0.0.0-20200815001618-f69a88009b70
 	google.golang.org/grpc v1.32.0
 	google.golang.org/grpc/examples v0.0.0-20200728065043-dfc0c05b2da9 // indirect
 	google.golang.org/protobuf v1.25.0
-	gopkg.in/yaml.v2 v2.3.0
+	gopkg.in/yaml.v2 v2.4.0
 	honnef.co/go/tools v0.0.1-2020.1.5
 )
