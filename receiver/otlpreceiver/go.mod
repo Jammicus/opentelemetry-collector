@@ -1,10 +1,11 @@
 module go.opentelemetry.io/collector/receiver/otlpreceiver
 
 go 1.20
+toolchain go1.24.1
 
 require (
 	github.com/gogo/protobuf v1.3.2
-	github.com/klauspost/compress v1.17.2
+	github.com/klauspost/compress v1.18.0
 	github.com/stretchr/testify v1.8.4
 	go.opentelemetry.io/collector v0.89.0
 	go.opentelemetry.io/collector/component v0.89.0
