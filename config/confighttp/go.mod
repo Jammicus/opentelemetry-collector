@@ -1,10 +1,11 @@
 module go.opentelemetry.io/collector/config/confighttp
 
 go 1.20
+toolchain go1.24.1
 
 require (
 	github.com/golang/snappy v0.0.4
-	github.com/klauspost/compress v1.17.2
+	github.com/klauspost/compress v1.18.0
 	github.com/rs/cors v1.10.1
 	github.com/stretchr/testify v1.8.4
 	go.opentelemetry.io/collector v0.89.0
