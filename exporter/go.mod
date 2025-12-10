@@ -1,6 +1,6 @@
 module go.opentelemetry.io/collector/exporter
 
-go 1.20
+go 1.24.0
 
 require (
 	github.com/cenkalti/backoff/v4 v4.2.1
@@ -20,7 +20,7 @@ require (
 	go.opentelemetry.io/otel/trace v1.21.0
 	go.uber.org/multierr v1.11.0
 	go.uber.org/zap v1.26.0
-	golang.org/x/sys v0.14.0
+	golang.org/x/sys v0.39.0
 	google.golang.org/grpc v1.59.0
 )
 
