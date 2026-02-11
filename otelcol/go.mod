@@ -1,6 +1,6 @@
 module go.opentelemetry.io/collector/otelcol
 
-go 1.20
+go 1.24.0
 
 require (
 	github.com/spf13/cobra v1.8.0
@@ -17,7 +17,7 @@ require (
 	go.opentelemetry.io/collector/service v0.89.0
 	go.uber.org/multierr v1.11.0
 	go.uber.org/zap v1.26.0
-	golang.org/x/sys v0.14.0
+	golang.org/x/sys v0.41.0
 	google.golang.org/grpc v1.59.0
 	gopkg.in/yaml.v3 v3.0.1
 )
