@@ -1,12 +1,12 @@
 module go.opentelemetry.io/collector/service
 
-go 1.20
+go 1.22.0
 
 require (
 	contrib.go.opencensus.io/exporter/prometheus v0.4.2
 	github.com/google/uuid v1.4.0
 	github.com/prometheus/client_golang v1.17.0
-	github.com/prometheus/client_model v0.5.0
+	github.com/prometheus/client_model v0.6.2
 	github.com/prometheus/common v0.45.0
 	github.com/shirou/gopsutil/v3 v3.23.10
 	github.com/stretchr/testify v1.8.4
@@ -89,7 +89,7 @@ require (
 	google.golang.org/genproto/googleapis/api v0.0.0-20230822172742-b8732ec3820d // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20230822172742-b8732ec3820d // indirect
 	google.golang.org/grpc v1.59.0 // indirect
-	google.golang.org/protobuf v1.31.0 // indirect
+	google.golang.org/protobuf v1.36.6 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
